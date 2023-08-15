@@ -3,7 +3,6 @@ import './index.css'
 const HistoryItem = props => {
   const {historyDetails, deleteHistory} = props
   const {timeAccessed, id, logoUrl, title, domainUrl} = historyDetails
-  console.log(timeAccessed)
 
   const deleteItem = () => {
     deleteHistory(id)
